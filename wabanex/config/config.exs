@@ -13,10 +13,10 @@ config :wabanex,
 # Configures the endpoint
 config :wabanex, WabanexWeb.Endpoint,
   url: [host: "localhost"],
-  secret_key_base: "8F6HQZH6Cc/zfsTK/AsSWQ/khSyw/M4xR8/qWPrc1ede0w9PTEzORlDY01XtXAAd",
+  secret_key_base: "JM/Fs2HF1HuOzSPVbV+Rs82XuyAvpswbLzm3zYZbfdKVKMotXOrJ9hdWknjHKIrl",
   render_errors: [view: WabanexWeb.ErrorView, accepts: ~w(json), layout: false],
   pubsub_server: Wabanex.PubSub,
-  live_view: [signing_salt: "ovV0/ZTz"]
+  live_view: [signing_salt: "IXR+bzzY"]
 
 # Configures Elixir's Logger
 config :logger, :console,
